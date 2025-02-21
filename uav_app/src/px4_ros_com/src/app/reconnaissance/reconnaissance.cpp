@@ -109,7 +109,7 @@ UAVCommand::UAVCommand() : Node("uav_command") {
 
 	std::cout << "=============================Instantiating UAV Command Node=============================" << std::endl;
 
-	net = cv::dnn::readNetFromONNX("src/px4_ros_com/src/app/reconnaissance/model/yolov5/runs/train/exp2/weights/best.onnx");
+	net = cv::dnn::readNetFromONNX("src/px4_ros_com/src/app/reconnaissance/model/best.onnx");
 
 	rmw_qos_profile_t qos_profile_deg = rmw_qos_profile_sensor_data;
 	rmw_qos_profile_t qos_profile_pos = rmw_qos_profile_sensor_data;
