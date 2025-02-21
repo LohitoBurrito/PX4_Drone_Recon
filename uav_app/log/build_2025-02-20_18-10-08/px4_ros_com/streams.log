@@ -1,0 +1,86 @@
+[0.338s] Invoking command in '/home/lohitoburrito/uav_app/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/lohitoburrito/uav_app/install/px4_msgs:/home/lohitoburrito/uav_app/install/px4_ros_com:/home/lohitoburrito/libtorch:/home/lohitoburrito/uav_recon/uav_app/install/px4_ros_com:/home/lohitoburrito/uav_recon/uav_app/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lohitoburrito/uav_app/install/px4_msgs/lib:/home/lohitoburrito/libtorch/lib:/home/lohitoburrito/uav_app/install/px4_ros_com/lib:/home/lohitoburrito/libtorch/lib:/home/lohitoburrito/uav_recon/uav_app/install/px4_ros_com/lib:/home/lohitoburrito/uav_recon/uav_app/install/px4_msgs/lib:/home/lohitoburrito/libtorch/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lohitoburrito/uav_app/build/px4_ros_com -- -j8 -l8
+[0.412s] [35m[1mConsolidate compiler generated dependencies of target frame_transforms[0m
+[0.415s] [35m[1mConsolidate compiler generated dependencies of target sensor_combined_listener[0m
+[0.415s] [35m[1mConsolidate compiler generated dependencies of target debug_vect_advertiser[0m
+[0.419s] [35m[1mConsolidate compiler generated dependencies of target offboard_control_srv[0m
+[0.424s] [35m[1mConsolidate compiler generated dependencies of target vehicle_gps_position_listener[0m
+[0.425s] [35m[1mConsolidate compiler generated dependencies of target offboard_control[0m
+[0.425s] [35m[1mConsolidate compiler generated dependencies of target reconnaissance[0m
+[0.482s] [ 14%] Built target frame_transforms
+[0.485s] [ 28%] Built target offboard_control
+[0.485s] [ 42%] Built target vehicle_gps_position_listener
+[0.491s] [ 57%] Built target sensor_combined_listener
+[0.500s] [ 78%] [32mBuilding CXX object CMakeFiles/reconnaissance.dir/src/app/reconnaissance/reconnaissance.cpp.o[0m
+[0.501s] [ 78%] Built target debug_vect_advertiser
+[0.503s] [ 78%] Built target ament_cmake_python_copy_px4_ros_com
+[0.510s] [ 92%] Built target offboard_control_srv
+[1.259s] running egg_info
+[1.311s] writing px4_ros_com.egg-info/PKG-INFO
+[1.313s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[1.313s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[1.465s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.468s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.531s] [ 92%] Built target ament_cmake_python_build_px4_ros_com_egg
+[5.931s] [01m[K/home/lohitoburrito/uav_app/src/px4_ros_com/src/app/reconnaissance/reconnaissance.cpp:[m[K In member function ‘[01m[Kvoid UAVCommand::read_vehicle_attitude(px4_msgs::msg::VehicleAttitude_<std::allocator<void> >::UniquePtr)[m[K’:
+[5.931s] [01m[K/home/lohitoburrito/uav_app/src/px4_ros_com/src/app/reconnaissance/reconnaissance.cpp:156:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.931s]   156 | void UAVCommand::read_vehicle_attitude([01;35m[Kconst VehicleAttitude::UniquePtr msg[m[K) {
+[5.931s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[22.285s] [100%] [32m[1mLinking CXX executable reconnaissance[0m
+[25.023s] [100%] Built target reconnaissance
+[25.046s] Invoked command in '/home/lohitoburrito/uav_app/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/lohitoburrito/uav_app/install/px4_msgs:/home/lohitoburrito/uav_app/install/px4_ros_com:/home/lohitoburrito/libtorch:/home/lohitoburrito/uav_recon/uav_app/install/px4_ros_com:/home/lohitoburrito/uav_recon/uav_app/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lohitoburrito/uav_app/install/px4_msgs/lib:/home/lohitoburrito/libtorch/lib:/home/lohitoburrito/uav_app/install/px4_ros_com/lib:/home/lohitoburrito/libtorch/lib:/home/lohitoburrito/uav_recon/uav_app/install/px4_ros_com/lib:/home/lohitoburrito/uav_recon/uav_app/install/px4_msgs/lib:/home/lohitoburrito/libtorch/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/lohitoburrito/uav_app/build/px4_ros_com -- -j8 -l8
+[25.049s] Invoking command in '/home/lohitoburrito/uav_app/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/lohitoburrito/uav_app/install/px4_msgs:/home/lohitoburrito/uav_app/install/px4_ros_com:/home/lohitoburrito/libtorch:/home/lohitoburrito/uav_recon/uav_app/install/px4_ros_com:/home/lohitoburrito/uav_recon/uav_app/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lohitoburrito/uav_app/install/px4_msgs/lib:/home/lohitoburrito/libtorch/lib:/home/lohitoburrito/uav_app/install/px4_ros_com/lib:/home/lohitoburrito/libtorch/lib:/home/lohitoburrito/uav_recon/uav_app/install/px4_ros_com/lib:/home/lohitoburrito/uav_recon/uav_app/install/px4_msgs/lib:/home/lohitoburrito/libtorch/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lohitoburrito/uav_app/build/px4_ros_com
+[25.058s] -- Install configuration: ""
+[25.059s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[25.059s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[25.059s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[25.060s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[25.060s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[25.061s] -- Installing: /home/lohitoburrito/uav_app/install/px4_ros_com/lib/px4_ros_com/reconnaissance
+[25.078s] -- Set runtime path of "/home/lohitoburrito/uav_app/install/px4_ros_com/lib/px4_ros_com/reconnaissance" to ""
+[25.079s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[25.079s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[25.079s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/include/px4_ros_com
+[25.080s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[25.081s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/lib/libframe_transforms.so
+[25.081s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com//launch
+[25.081s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[25.082s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[25.082s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com//test
+[25.082s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[25.083s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[25.083s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[25.083s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[25.083s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[25.084s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[25.084s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[25.084s] -- Installing: /home/lohitoburrito/uav_app/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[25.084s] -- Installing: /home/lohitoburrito/uav_app/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[25.084s] -- Installing: /home/lohitoburrito/uav_app/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[25.084s] -- Installing: /home/lohitoburrito/uav_app/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[25.085s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[25.085s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[25.085s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[25.161s] Listing '/home/lohitoburrito/uav_app/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[25.171s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[25.172s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[25.172s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[25.173s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[25.173s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[25.173s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[25.174s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[25.174s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[25.175s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[25.175s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[25.176s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[25.176s] -- Installing: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/package.dsv
+[25.176s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[25.176s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[25.176s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[25.178s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.178s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[25.178s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.179s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[25.179s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[25.180s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[25.180s] -- Up-to-date: /home/lohitoburrito/uav_app/install/px4_ros_com/share/px4_ros_com/package.xml
+[25.185s] Invoked command in '/home/lohitoburrito/uav_app/build/px4_ros_com' returned '0': CMAKE_PREFIX_PATH=/home/lohitoburrito/uav_app/install/px4_msgs:/home/lohitoburrito/uav_app/install/px4_ros_com:/home/lohitoburrito/libtorch:/home/lohitoburrito/uav_recon/uav_app/install/px4_ros_com:/home/lohitoburrito/uav_recon/uav_app/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lohitoburrito/uav_app/install/px4_msgs/lib:/home/lohitoburrito/libtorch/lib:/home/lohitoburrito/uav_app/install/px4_ros_com/lib:/home/lohitoburrito/libtorch/lib:/home/lohitoburrito/uav_recon/uav_app/install/px4_ros_com/lib:/home/lohitoburrito/uav_recon/uav_app/install/px4_msgs/lib:/home/lohitoburrito/libtorch/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/lohitoburrito/uav_app/build/px4_ros_com

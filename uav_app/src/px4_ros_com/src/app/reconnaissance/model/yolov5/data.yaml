@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 2
+names: ['Car', 'Empty']
+
+roboflow:
+  workspace: swee-xiao-qi
+  project: parking-lot-availability
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/swee-xiao-qi/parking-lot-availability/dataset/8
