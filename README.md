@@ -117,7 +117,7 @@ cd uav_app/
 ./setup.sh
 ```
 ## Video Test
-Will Be Updated Tommorow 😊
+Will Be Updated Today 😊
 
 ## Algorithm
-Will Be Updated Tommorow 😊
+Will Be Updated Today 😊
