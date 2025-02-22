@@ -8,11 +8,6 @@ This repository contains my implementation of drone reconnaissance where a drone
 ② [PX4 ROS2 Message Repo](https://github.com/PX4/px4_msgs) <br />
 ③ [PX4 ROS2 Communication Repo](https://github.com/PX4/px4_ros_com) <br />
 ④ [Yolov5 Roboflow Train/Val/Test Dataset](https://universe.roboflow.com/swee-xiao-qi/parking-lot-availability) <br />
-
-## Requirements
-- WSL2 Ubuntu 22.04.5 LTS (windows subsystem for linux)
-- ROS2 humble
-- Gazebo
   
 ## Installation
 For more information on installation, go to the PX4 Documentation link in credits.
