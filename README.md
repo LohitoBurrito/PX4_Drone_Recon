@@ -91,7 +91,7 @@ mv ./GazeboPackage/search_and_rescue.world ./PX4-Autopilot/Tools/simulation/gaze
 mv ./GazeboPackage/sitl_targets_gazebo-classic.cmake ./PX4-Autopilot/src/modules/simulation/simulator_mavlink/sitl_targets_gazebo-classic.cmake
 sudo rm -rf GazeboPackage
 ```
-## Run
+## Run Instructions
 If you just performed installation, you can close all 4 terminals, and run 4 new Ubuntu 22.04.5 LTS terminals.
 ### Terminal 1
 To start the Micro XRCE-DDS Agent, run:
