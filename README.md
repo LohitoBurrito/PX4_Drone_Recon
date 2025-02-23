@@ -112,7 +112,8 @@ cd uav_app/
 ./setup.sh
 ```
 ## Video Test
-Will Be Updated Today 😊
+
+[Recon Test 1](https://drive.google.com/file/d/10ifqBN1xoqAcd5luLetRzt3qX6l66-QF/view?usp=sharing)
 
 ## Algorithm
 Will Be Updated Today 😊
