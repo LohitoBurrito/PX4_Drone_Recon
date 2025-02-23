@@ -115,5 +115,5 @@ cd uav_app/
 - [Recon Test 1](https://drive.google.com/file/d/10ifqBN1xoqAcd5luLetRzt3qX6l66-QF/view?usp=sharing)
 
 ## Algorithm
-Will Be Updated Today 😊
-Edit: Ok nvm, will be updated tommorow 😭
+Will Be Updated Today 😊 <br />
+Edit: Ok nvm, will be updated tommorow. I was learning more behavior tree stuff 😭
