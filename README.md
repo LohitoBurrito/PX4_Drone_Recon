@@ -116,3 +116,4 @@ cd uav_app/
 
 ## Algorithm
 Will Be Updated Today 😊
+Edit: Ok nvm, will be updated tommorow 😭
