@@ -116,4 +116,4 @@ cd uav_app/
 
 ## Algorithm
 Will Be Updated Today 😊 <br />
-Edit: Ok nvm, will be updated tommorow. I was learning more behavior tree stuff 😭
+Edit: Ok nvm, will be updated tommorow. I was learning more behavior tree stuff in C++ 😭
