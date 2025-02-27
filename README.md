@@ -80,6 +80,7 @@ git clone https://github.com/LohitoBurrito/PX4_Drone_Recon.git
 cd uav_app
 chmod +x setup.sh
 cd
+sudo apt install ros-humble-cv-bridge
 mv PX4_Drone_Recon/* . && rm -rf PX4_Drone_Recon
 mv ./GazeboPackage/red_car ./PX4-Autopilot/Tools/simulation/gz/models/red_car
 mv ./GazeboPackage/search_and_rescue.world ./PX4-Autopilot/Tools/simulation/gz/worlds/search_and_rescue.world
