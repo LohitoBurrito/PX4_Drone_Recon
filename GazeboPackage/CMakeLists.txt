@@ -93,7 +93,6 @@ if(gz-transport_FOUND)
 		aruco
 		rover
 		walls
-		fire
 		search_and_rescue
 	)
 
