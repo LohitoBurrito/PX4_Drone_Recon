@@ -16,8 +16,17 @@ Open windows powershell and run:
 ```
 wsl --install -d Ubuntu-22.04
 ```
+### PX4 Development Environment Installation
+To retrieve the PX4 ROS2 World and Code, run the following in a new ubuntu terminal
+```
+cd
+git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
+cd PX4-Autopilot/
+make px4_sitl
+```
 ### ROS2 Humble Installation
-Open Ubuntu 22.04.4 LTS terminal, go through the installation process if you have not already and run:
+To install ROS2 Humble run:
 ```
 cd
 sudo apt update && sudo apt install locales
@@ -62,15 +71,6 @@ Download the following [link](https://d176tv9ibo4jno.cloudfront.net/latest/QGrou
 ```
 cd
 chmod +x ./QGroundControl.AppImage
-```
-### PX4 Development Environment Installation
-To retrieve the PX4 ROS2 World and Code, run the following in a new ubuntu terminal
-```
-cd
-git clone https://github.com/PX4/PX4-Autopilot.git --recursive
-bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
-cd PX4-Autopilot/
-make px4_sitl
 ```
 ### PX4 ROS2 Workspace Installation
 Ensure you installed the PX4 Development Environment before performing this step. In a new terminal, run the following:
