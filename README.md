@@ -77,7 +77,6 @@ Ensure you installed the PX4 Development Environment before performing this step
 ```
 cd
 git clone https://github.com/LohitoBurrito/PX4_Drone_Recon.git
-bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
 cd uav_app
 chmod +x setup.sh
 cd
