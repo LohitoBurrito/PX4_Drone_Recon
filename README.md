@@ -81,9 +81,9 @@ cd uav_app
 chmod +x setup.sh
 cd
 mv PX4_Drone_Recon/* . && rm -rf PX4_Drone_Recon
-mv ./GazeboPackage/red_car ./PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/red_car
-mv ./GazeboPackage/search_and_rescue.world ./PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/worlds/search_and_rescue.world
-mv ./GazeboPackage/sitl_targets_gazebo-classic.cmake ./PX4-Autopilot/src/modules/simulation/simulator_mavlink/sitl_targets_gazebo-classic.cmake
+mv ./GazeboPackage/red_car ./PX4-Autopilot/Tools/simulation/gz/models/red_car
+mv ./GazeboPackage/search_and_rescue.world ./PX4-Autopilot/Tools/simulation/gz/worlds/search_and_rescue.world
+mv ./GazeboPackage/CMakeLists.txt ./PX4-Autopilot/src/modules/simulation/gz_bridge/CMakeLists.txt
 sudo rm -rf GazeboPackage
 ```
 ## Run Instructions
